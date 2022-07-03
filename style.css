@@ -1,0 +1,100 @@
+:root{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+/*background start*/
+#bg{
+width: 100%;
+}
+
+#bg>img{
+   max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.header{
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 1; 
+}
+
+#bg>p{
+    font-size: 3rem;
+    left: 30%;
+    color: white;
+}
+
+#input{
+    left: 30%;
+    top: 16%;
+    width: 30rem;
+    height: 3rem;
+    padding-left: 1rem;
+    border-radius: 0.2rem;
+    border: 0;
+    font-size: 1.3rem;
+}
+
+#button{
+    z-index: 2;
+    width: 3rem;
+    height: 3.1rem;
+    top: 16%;
+    left: 63%;
+    background-color: white;
+    color: rgb(228, 51, 213);
+    border:none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+
+
+/*background end*/
+
+/*task holder start*/
+#Task_holder{
+    position: absolute;
+    z-index: 1;
+    width: 30rem;
+    min-height: 40%;
+    top: 30% ;
+    left: 31% ;
+    box-shadow: 0px 0px 20px 0px thistle;
+    background-color: thistle;
+    border-radius: 0.2rem;
+    padding: 0;
+}
+
+#Task_holder>ul{
+margin: 0;
+padding: 0;
+list-style: none;
+width: 100%;
+border-radius: inherit;
+
+}
+
+#Task_holder>ul>li{
+    padding: 0.9rem 1.1rem 0.9rem 1.1rem ;
+    cursor: pointer;
+}
+
+#Task_holder>ul>li:hover{
+    background-color: rgb(219, 171, 219);
+    border-radius: inherit;
+}
+
+#Task_holder i{
+    color: rgb(78, 78, 71);
+}
+/*task holder end*/
+
+
+
+
